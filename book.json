@@ -28,7 +28,9 @@
         "anchor-navigation-ex",
 	"theme-comscore",
 	"favicon",
-	"insert-logo"
+	"insert-logo",
+	"gtalk",
+	"tbfed-pagefooter"
     ],
     "pluginsConfig": {
         "github": {
@@ -68,6 +70,18 @@
 	"insert-logo": {
 		"url": "https://github.com/MaxSolider/pictures/raw/main/handbook/logo.png?raw=true",
         	"style": "background: none; max-height: 300px; min-height: 100"
-	}
+	},
+    "gtalk": {
+      "clientID": "fea7c6e372e277d1c2f2",
+      "clientSecret": "d325e27c061f40b15cefae8e3e2ea1aa7d69e6f5",
+      "repo": "handbook",
+      "owner": "MaxSolider",
+      "admin": ["MaxSolider"]
+    },
+"tbfed-pagefooter": {
+          "copyright":"&copy MaxSolider",
+          "modify_label": "文件修订时间：",
+          "modify_format": "YYYY-MM-DD HH:mm:ss"
+        }
     }
 }
