@@ -12,7 +12,7 @@
     },
     "links": {
         "sidebar": {
-            "MaxSolider": "https://github.com/MaxSolider"
+            "MaxSolider's Handbook": "https://github.com/MaxSolider"
         }
     },
     "plugins": [
@@ -51,15 +51,15 @@
             "alipayText": " "
         },
         "anchor-navigation-ex": {
-            "showLevel": false
+            "showLevel": true
         },
         "favicon":{
             "shortcut": "/source/images/favicon.ico",
             "bookmark": "/source/images/favicon.ico",
-            "appleTouch": "/source/images/favicon.jpg",
+            "appleTouch": "/source/images/favicon.png",
             "appleTouchMore": {
-                "120x120": "/source/images/favicon.jpg",
-                "180x180": "/source/images/favicon.jpg"
+                "120x120": "/source/images/favicon.png",
+                "180x180": "/source/images/favicon.png"
             }
         },
 	"theme-default": {
