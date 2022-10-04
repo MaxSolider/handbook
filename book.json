@@ -26,9 +26,10 @@
         "donate",
         "sharing-plus",
         "anchor-navigation-ex",
-        "favicon",
 	"theme-comscore",
-	"insert-logo"
+	"favicon",
+	"insert-logo",
+	"favicon-absolute"
     ],
     "pluginsConfig": {
         "github": {
@@ -68,6 +69,12 @@
 	"insert-logo": {
 		"url": "https://github.com/MaxSolider/pictures/raw/main/handbook/logo.png?raw=true",
         	"style": "background: none; max-height: 300px; min-height: 100"
-	}
+	},
+	"favicon-absolute":{
+            	"favicon": "/source/images/favicon.ico",
+	    	"bookmark": "/source/images/favicon.ico",
+            	"appleTouchIcon152": "/source/images/favicon.png",
+            	"appleTouchIconPrecomposed152": "/source/images/favicon.png"
+        }
     }
 }
