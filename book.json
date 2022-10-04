@@ -45,7 +45,7 @@
             ]
         },
         "donate": {
-            "alipay": "/source/images/donate.png",
+            "alipay": "https://github.com/MaxSolider/pictures/raw/main/handbook/donate.png?raw=true",
             "title": "",
             "button": "赞赏",
             "alipayText": " "
@@ -54,19 +54,19 @@
             "showLevel": true
         },
         "favicon":{
-            "shortcut": "/source/images/favicon.ico",
-            "bookmark": "/source/images/favicon.ico",
-            "appleTouch": "/source/images/favicon.png",
+            "shortcut": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.ico?raw=true",
+            "bookmark": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.ico?raw=true",
+            "appleTouch": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.png?raw=true",
             "appleTouchMore": {
-                "120x120": "/source/images/favicon.png",
-                "180x180": "/source/images/favicon.png"
+                "120x120": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.png?raw=true",
+                "180x180": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.png?raw=true"
             }
         },
 	"theme-default": {
 		"showLevel": true
 	},
 	"insert-logo": {
-		"url": "/source/images/logo.png",
+		"url": "https://github.com/MaxSolider/pictures/raw/main/handbook/logo.png?raw=true",
         	"style": "background: none; max-height: 300px; min-height: 100"
 	}
     }
