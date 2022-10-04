@@ -1,6 +1,6 @@
 {
-    "title": "Blankj's Glory",
-    "author": "Blankj",
+    "title": "MaxSolider's HandBook",
+    "author": "MaxSolider",
     "description": "select * from learn",
     "language": "zh-hans",
     "gitbook": "3.2.3",
@@ -12,7 +12,7 @@
     },
     "links": {
         "sidebar": {
-            "我的狗窝": "https://blankj.com"
+            "MaxSolider": "https://github.com/MaxSolider"
         }
     },
     "plugins": [
@@ -31,12 +31,12 @@
     ],
     "pluginsConfig": {
         "github": {
-            "url": "https://github.com/Blankj"
+            "url": "https://github.com/MaxSolider"
         },
         "github-buttons": {
             "buttons": [{
-                "user": "Blankj",
-                "repo": "glory",
+                "user": "MaxSolider",
+                "repo": "handbook",
                 "type": "star",
                 "size": "small",
                 "count": true
@@ -48,29 +48,6 @@
             "title": "",
             "button": "赞赏",
             "alipayText": " "
-        },
-        "sharing": {
-            "douban": false,
-            "facebook": false,
-            "google": false,
-            "hatenaBookmark": false,
-            "instapaper": false,
-            "line": false,
-            "linkedin": false,
-            "messenger": false,
-            "pocket": false,
-            "qq": false,
-            "qzone": false,
-            "stumbleupon": false,
-            "twitter": false,
-            "viber": false,
-            "vk": false,
-            "weibo": false,
-            "whatsapp": false,
-            "all": [
-                "google", "facebook", "weibo", "twitter",
-                "qq", "qzone", "linkedin", "pocket"
-            ]
         },
         "anchor-navigation-ex": {
             "showLevel": false
