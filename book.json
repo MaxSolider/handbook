@@ -31,7 +31,15 @@
 	"insert-logo",
 	"gtalk",
 	"tbfed-pagefooter",
-	"-livereload"
+	"-livereload",
+	"popup",
+	"page-treeview",
+	"anchor-navigation-ex",
+	"chapter-fold",
+	"pageview-count",
+	"code",
+	"hide-element",
+        "back-to-top-button"
     ],
     "pluginsConfig": {
         "github": {
@@ -83,6 +91,13 @@
           "copyright":"&copy MaxSolider",
           "modify_label": "文件修订时间：",
           "modify_format": "YYYY-MM-DD HH:mm:ss"
-        }
+        },
+	"anchor-navigation-ex": {
+		"showLevel": false,
+		"showGoTop": false
+	},
+	"hide-element": {
+		"elements": [".gitbook-link"]
+	}
     }
 }
