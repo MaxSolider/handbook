@@ -48,7 +48,7 @@
             ]
         },
         "donate": {
-            "alipay": "https://github.com/MaxSolider/pictures/raw/main/handbook/donate.png?raw=true",
+            "alipay": "https://s2.loli.net/2022/10/05/mwvUKGc19HZ3p2D.jpg",
             "title": "",
             "button": "赞赏",
             "alipayText": " "
@@ -59,17 +59,17 @@
         "favicon":{
             "shortcut": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.ico?raw=true",
             "bookmark": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.ico?raw=true",
-            "appleTouch": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.png?raw=true",
+            "appleTouch": "https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png",
             "appleTouchMore": {
-                "120x120": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.png?raw=true",
-                "180x180": "https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.png?raw=true"
+                "120x120": "https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png",
+                "180x180": "https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png"
             }
         },
 	"theme-default": {
 		"showLevel": true
 	},
 	"insert-logo": {
-		"url": "https://github.com/MaxSolider/pictures/raw/main/handbook/logo.png?raw=true",
+		"url": "https://s2.loli.net/2022/10/05/X1FwyZbABtaPN5O.png",
         	"style": "background: none; max-height: 300px; min-height: 100"
 	},
     "gtalk": {
