@@ -40,7 +40,8 @@
 	"hide-element",
         "back-to-top-button",
 	"sitemap",
-	"sitemap-general"
+	"sitemap-general",
+	"flexible-alerts"
     ],
     "pluginsConfig": {
         "github": {
@@ -79,7 +80,7 @@
 	},
 	"insert-logo": {
 		"url": "https://s2.loli.net/2022/10/05/X1FwyZbABtaPN5O.png",
-        	"style": "background: none; max-height: 300px; min-height: 100"
+        	"style": "background: none; max-height: 200px; min-height: 80"
 	},
     "gtalk": {
       "clientID": "fea7c6e372e277d1c2f2",
@@ -105,6 +106,31 @@
         },
 	"sitemap-general": {
             "prefix": "https://maxsolider.github.io"
+        },
+	"flexible-alerts": {
+          "style": "flat",
+          "note": {
+            "label": "重点"
+          },
+          "tip": {
+            "label": "建议"
+          },
+          "warning": {
+            "label": "注意事项"
+          },
+          "danger": {
+            "label": "危险"
+          },
+        "question": {
+            "label": "问题",
+            "icon": "fa fa-question-circle",
+            "className": "info"
+        },
+        "comment": {
+            "label": "评论",
+            "icon": "fa fa-comments",
+            "className": "info"
         }
+    }
     }
 }
