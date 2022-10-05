@@ -39,7 +39,9 @@
 	"pageview-count",
 	"code",
 	"hide-element",
-        "back-to-top-button"
+        "back-to-top-button",
+	"sitemap",
+	"sitemap-general"
     ],
     "pluginsConfig": {
         "github": {
@@ -98,6 +100,12 @@
 	},
 	"hide-element": {
 		"elements": [".gitbook-link"]
-	}
+	},
+	"sitemap": {
+            "hostname": "https://maxsolider.github.io"
+        },
+	"sitemap-general": {
+            "prefix": "https://maxsolider.github.io"
+        }
     }
 }
