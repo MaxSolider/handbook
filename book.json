@@ -30,7 +30,8 @@
 	"favicon",
 	"insert-logo",
 	"gtalk",
-	"tbfed-pagefooter"
+	"tbfed-pagefooter",
+	"-livereload"
     ],
     "pluginsConfig": {
         "github": {
