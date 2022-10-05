@@ -1,9 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-
------
-* [Read](Read/README1.md)
+----------
 * [数据结构与算法](数据结构与算法/ReadMe.md)
 	* [数据结构](数据结构与算法/数据结构/ReadMe.md)
 	    * [字符串](数据结构与算法/数据结构/01-字符串.md)
