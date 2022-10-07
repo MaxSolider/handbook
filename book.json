@@ -80,7 +80,7 @@
 	},
 	"insert-logo": {
 		"url": "https://s2.loli.net/2022/10/05/X1FwyZbABtaPN5O.png",
-        	"style": "background: none; max-height: 200px; min-height: 80"
+        	"style": "background: none; height: 200px; width: 200px; "
 	},
     "gtalk": {
       "clientID": "fea7c6e372e277d1c2f2",
