@@ -4318,11 +4318,11 @@
                                 <section class="normal markdown-section">
                                 
                                 <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><li><span class="title-icon "></span><a href="#&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;"><b></b>&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;</a></li><ul><li><span class="title-icon "></span><a href="#&#x95EE;&#x9898;&#x63CF;&#x8FF0;"><b></b>&#x95EE;&#x9898;&#x63CF;&#x8FF0;</a></li><li><span class="title-icon "></span><a href="#&#x6838;&#x5FC3;&#x601D;&#x8DEF;"><b></b>&#x6838;&#x5FC3;&#x601D;&#x8DEF;</a></li><li><span class="title-icon "></span><a href="#&#x5B9E;&#x73B0;&#x4EE3;&#x7801;"><b></b>&#x5B9E;&#x73B0;&#x4EE3;&#x7801;</a></li><li><span class="title-icon "></span><a href="#&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;"><b></b>&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;</a></li><li><span class="title-icon "></span><a href="#&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;"><b></b>&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;</a></li></ul></ul></div><h1 id="&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;"><a name="&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;" class="anchor-navigation-ex-anchor" href="#&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;" class="plugin-anchor" href="#&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;</h1>
-<hr>
 <blockquote>
-<p>[!Tip]
-&#x672C;&#x8282;&#x6E90;&#x4EE3;&#x7801;&#x89C1;<a href="https://github.com/MaxSolider/leetcode-algorithm/blob/main/structure/src/main/java/org/example/linkedlist/exercises/FindMiddle.java" target="_blank">Github&#x94FE;&#x63A5;&#x1F517;</a></p>
+<p>[!Tip]</p>
+<p>&#x672C;&#x8282;&#x6E90;&#x4EE3;&#x7801;&#x89C1;<a href="https://github.com/MaxSolider/leetcode-algorithm/blob/main/structure/src/main/java/org/example/linkedlist/exercises/FindMiddle.java" target="_blank">Github&#x94FE;&#x63A5;&#x1F517;</a></p>
 </blockquote>
+<hr>
 <h2 id="&#x95EE;&#x9898;&#x63CF;&#x8FF0;"><a name="&#x95EE;&#x9898;&#x63CF;&#x8FF0;" class="anchor-navigation-ex-anchor" href="#&#x95EE;&#x9898;&#x63CF;&#x8FF0;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x95EE;&#x9898;&#x63CF;&#x8FF0;" class="plugin-anchor" href="#&#x95EE;&#x9898;&#x63CF;&#x8FF0;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x95EE;&#x9898;&#x63CF;&#x8FF0;</h2>
 <p>&#x627E;&#x5230;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;</p>
 <hr>
@@ -4340,33 +4340,33 @@
     <summary>&#x3010;&#x1F449;&#x1F3FB;&gt;&gt;&#x70B9;&#x51FB;&#x5C55;&#x5F00;&#x67E5;&#x770B;&#x4EE3;&#x7801;&#x3011;</summary> 
     <pre>
         <code>
-            /**  
-             * &#x627E;&#x5230;&#x5355;&#x5411;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;  
-             *  
-             * @param headNode  
-             * @return NormalListNode  
-             * @author: Max Solider  
-             * @date: 2022/10/9 14:18  
-             */
-             NormalListNode findMiddle(NormalListNode headNode) {  
-                if (headNode == null || headNode.getNext() == null) {  
-                    return headNode;  
-                }  
-                NormalListNode slowPtr = headNode;  
-                NormalListNode fastPtr = headNode.getNext();  
-                while (fastPtr.getNext() != null &amp;&amp; fastPtr.getNext().getNext() != null) {  
-                    fastPtr = fastPtr.getNext().getNext();  
-                    slowPtr = slowPtr.getNext();  
-                }  
-                NormalListNode middleNode = null;  
-                if (fastPtr.getNext() == null) {  
-                    middleNode = slowPtr;  
-                } else {  
-                    middleNode = slowPtr.getNext();  
-                }  
-                System.out.println(&quot;The middle node of linked lis is &quot; + middleNode.getData());  
-                return middleNode;  
-            }
+/**  
+ * &#x627E;&#x5230;&#x5355;&#x5411;&#x94FE;&#x8868;&#x7684;&#x4E2D;&#x95F4;&#x7ED3;&#x70B9;  
+ *  
+ * @param headNode  
+ * @return NormalListNode  
+ * @author: Max Solider  
+ * @date: 2022/10/9 14:18  
+ */
+ NormalListNode findMiddle(NormalListNode headNode) {  
+    if (headNode == null || headNode.getNext() == null) {  
+        return headNode;  
+    }  
+    NormalListNode slowPtr = headNode;  
+    NormalListNode fastPtr = headNode.getNext();  
+    while (fastPtr.getNext() != null &amp;&amp; fastPtr.getNext().getNext() != null) {  
+        fastPtr = fastPtr.getNext().getNext();  
+        slowPtr = slowPtr.getNext();  
+    }  
+    NormalListNode middleNode = null;  
+    if (fastPtr.getNext() == null) {  
+        middleNode = slowPtr;  
+    } else {  
+        middleNode = slowPtr.getNext();  
+    }  
+    System.out.println(&quot;The middle node of linked lis is &quot; + middleNode.getData());  
+    return middleNode;  
+}
         </code>
     </pre>
 </details>
@@ -4377,9 +4377,10 @@
 <hr>
 <h2 id="&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;"><a name="&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;" class="anchor-navigation-ex-anchor" href="#&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;"><i class="fa fa-link" aria-hidden="true"></i></a><a name="&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;" class="plugin-anchor" href="#&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;</h2>
 <p>&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x4E3A;<em>O(1)</em>&#xFF0C;&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x4E34;&#x65F6;&#x53D8;&#x91CF;&#x3002;</p>
+<hr>
 <p><div id="gitalk-container"></div><script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script><script>window.onload = function() {gitbook.events.on("page.change", function() {var gitalk = new Gitalk({"clientID":"fea7c6e372e277d1c2f2","clientSecret":"d325e27c061f40b15cefae8e3e2ea1aa7d69e6f5","repo":"handbook","owner":"MaxSolider","admin":["MaxSolider"],"id":"/数据结构与算法/数据结构/02-链表/02-常见问题/08-找到链表的中间结点.html"});gitalk.render("gitalk-container");});};var gitalk = new Gitalk({"clientID":"fea7c6e372e277d1c2f2","clientSecret":"d325e27c061f40b15cefae8e3e2ea1aa7d69e6f5","repo":"handbook","owner":"MaxSolider","admin":["MaxSolider"],"id":"/数据结构与算法/数据结构/02-链表/02-常见问题/08-找到链表的中间结点.html"});gitalk.render("gitalk-container");</script> </p>
 <footer class="page-footer"><span class="copyright">&#xA9; MaxSolider all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
-2022-10-09 21:25:21
+2022-10-12 23:29:45
 </span></footer>
 <script>console.log("plugin-popup....");document.onclick = function(e){ e.target.tagName === "IMG" && window.open(e.target.src,e.target.src)}</script><style>img{cursor:pointer}</style>
                                 
@@ -4424,7 +4425,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"找到链表的中间结点","level":"2.1.1.2.2.8","depth":5,"next":{"title":"逆序输出链表","level":"2.1.1.2.2.9","depth":5,"path":"数据结构与算法/数据结构/02-链表/02-常见问题/09-逆序输出链表.md","ref":"数据结构与算法/数据结构/02-链表/02-常见问题/09-逆序输出链表.md","articles":[]},"previous":{"title":"找到两个链表的合并点","level":"2.1.1.2.2.7","depth":5,"path":"数据结构与算法/数据结构/02-链表/02-常见问题/07-找到两个链表的合并点.md","ref":"数据结构与算法/数据结构/02-链表/02-常见问题/07-找到两个链表的合并点.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","expandable-chapters-small","anchors","github","github-buttons","donate","sharing-plus","anchor-navigation-ex","theme-comscore","favicon","insert-logo","gtalk","tbfed-pagefooter","-livereload","popup","anchor-navigation-ex","chapter-fold","pageview-count","code","hide-element","back-to-top-button","sitemap","sitemap-general","flexible-alerts","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy MaxSolider","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"github":{"url":"https://github.com/MaxSolider"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"donate":{"alipay":"https://s2.loli.net/2022/10/05/mwvUKGc19HZ3p2D.jpg","alipayText":" ","button":"赞赏","title":"","wechat":"","wechatText":"微信打赏"},"sitemap-general":{"prefix":"https://maxsolider.github.io"},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"gtalk":{"clientID":"fea7c6e372e277d1c2f2","clientSecret":"d325e27c061f40b15cefae8e3e2ea1aa7d69e6f5","repo":"handbook","owner":"MaxSolider","admin":["MaxSolider"]},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":false,"showLevel":false},"favicon":{"shortcut":"https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.ico?raw=true","bookmark":"https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.ico?raw=true","appleTouch":"https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png","appleTouchMore":{"120x120":"https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png","180x180":"https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png"}},"sitemap":{"hostname":"https://maxsolider.github.io"},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"github-buttons":{"buttons":[{"user":"MaxSolider","repo":"handbook","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"危险"},"note":{"className":"info","icon":"fa fa-info-circle","label":"重点"},"style":"flat","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"建议"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"注意事项"},"question":{"label":"问题","icon":"fa fa-question-circle","className":"info"},"comment":{"label":"评论","icon":"fa fa-comments","className":"info"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"insert-logo":{"style":"background: none; height: 200px; width: 200px; ","url":"https://s2.loli.net/2022/10/05/X1FwyZbABtaPN5O.png"}},"theme":"default","author":"MaxSolider","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"MaxSolider's HandBook","language":"zh-hans","links":{"sidebar":{"MaxSolider's  Handbook":"https://github.com/MaxSolider"}},"gitbook":"3.2.3","description":"select * from learn"},"file":{"path":"数据结构与算法/数据结构/02-链表/02-常见问题/08-找到链表的中间结点.md","mtime":"2022-10-09T13:25:21.348Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-11T15:47:34.744Z"},"basePath":"../../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"找到链表的中间结点","level":"2.1.1.2.2.8","depth":5,"next":{"title":"逆序输出链表","level":"2.1.1.2.2.9","depth":5,"path":"数据结构与算法/数据结构/02-链表/02-常见问题/09-逆序输出链表.md","ref":"数据结构与算法/数据结构/02-链表/02-常见问题/09-逆序输出链表.md","articles":[]},"previous":{"title":"找到两个链表的合并点","level":"2.1.1.2.2.7","depth":5,"path":"数据结构与算法/数据结构/02-链表/02-常见问题/07-找到两个链表的合并点.md","ref":"数据结构与算法/数据结构/02-链表/02-常见问题/07-找到两个链表的合并点.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","splitter","expandable-chapters-small","anchors","github","github-buttons","donate","sharing-plus","anchor-navigation-ex","theme-comscore","favicon","insert-logo","gtalk","tbfed-pagefooter","-livereload","popup","anchor-navigation-ex","chapter-fold","pageview-count","code","hide-element","back-to-top-button","sitemap","sitemap-general","flexible-alerts","livereload"],"styles":{"website":"./styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy MaxSolider","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"chapter-fold":{},"github":{"url":"https://github.com/MaxSolider"},"splitter":{},"search":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"popup":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"code":{"copyButtons":true},"donate":{"alipay":"https://s2.loli.net/2022/10/05/mwvUKGc19HZ3p2D.jpg","alipayText":" ","button":"赞赏","title":"","wechat":"","wechatText":"微信打赏"},"sitemap-general":{"prefix":"https://maxsolider.github.io"},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"gtalk":{"clientID":"fea7c6e372e277d1c2f2","clientSecret":"d325e27c061f40b15cefae8e3e2ea1aa7d69e6f5","repo":"handbook","owner":"MaxSolider","admin":["MaxSolider"]},"highlight":{},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":false,"showLevel":false},"favicon":{"shortcut":"https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.ico?raw=true","bookmark":"https://github.com/MaxSolider/pictures/raw/main/handbook/favicon.ico?raw=true","appleTouch":"https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png","appleTouchMore":{"120x120":"https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png","180x180":"https://s2.loli.net/2022/10/05/WiTzQ1VkFwcL47b.png"}},"sitemap":{"hostname":"https://maxsolider.github.io"},"theme-comscore":{},"back-to-top-button":{},"pageview-count":{},"github-buttons":{"buttons":[{"user":"MaxSolider","repo":"handbook","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"flexible-alerts":{"danger":{"className":"danger","icon":"fa fa-ban","label":"危险"},"note":{"className":"info","icon":"fa fa-info-circle","label":"重点"},"style":"flat","tip":{"className":"tip","icon":"fa fa-lightbulb-o","label":"建议"},"warning":{"className":"warning","icon":"fa fa-exclamation-triangle","label":"注意事项"},"question":{"label":"问题","icon":"fa fa-question-circle","className":"info"},"comment":{"label":"评论","icon":"fa fa-comments","className":"info"}},"sharing":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"insert-logo":{"style":"background: none; height: 200px; width: 200px; ","url":"https://s2.loli.net/2022/10/05/X1FwyZbABtaPN5O.png"}},"theme":"default","author":"MaxSolider","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"MaxSolider's HandBook","language":"zh-hans","links":{"sidebar":{"MaxSolider's  Handbook":"https://github.com/MaxSolider"}},"gitbook":"3.2.3","description":"select * from learn"},"file":{"path":"数据结构与算法/数据结构/02-链表/02-常见问题/08-找到链表的中间结点.md","mtime":"2022-10-12T15:29:45.056Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-10-12T15:31:26.504Z"},"basePath":"../../../..","book":{"language":""}});
         });
     </script>
 </div>
