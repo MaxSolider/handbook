@@ -41,7 +41,8 @@
         "back-to-top-button",
 	"sitemap",
 	"sitemap-general",
-	"flexible-alerts"
+	"flexible-alerts",
+	"katex"
     ],
     "pluginsConfig": {
         "github": {
