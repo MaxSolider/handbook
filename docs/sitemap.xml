@@ -47,6 +47,15 @@
 <url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/03-栈/01-常见问题/16-栈元素排序.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/03-栈/01-常见问题/18-删除所有相邻的重复元素.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/ReadMe.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/ReadMe.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/01-逆置队列元素.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/02-使用两个栈来实现队列.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/03-使用两个队列来实现栈.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/04-滑动窗口最大值问题.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/05-将队列中元素移入栈.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/06-检查整数栈中每对相邻数字是否连续.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/07-交叉排列队列中前后部分的元素.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
+<url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/04-队列/01-常见问题/08-逆置队列中前k个元素.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/05-树/ReadMe.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/06-堆/ReadMe.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
 <url> <loc>https://maxsolider.github.io/数据结构与算法/数据结构/07-图/ReadMe.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> </url>
